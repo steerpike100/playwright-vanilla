@@ -15,7 +15,7 @@ test("Clicking on Elements", async({page}) =>{
     await expect(errorMessage).toContainText('Login and/or password are wrong.')
 })
 
-test("Selectors", async({page}) =>{
+test.skip("Selectors", async({page}) =>{
     //text
     await page.click("text=some text")
     //css selectors
